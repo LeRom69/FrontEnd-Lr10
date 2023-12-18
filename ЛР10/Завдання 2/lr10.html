@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LR10</title>
+    <script defer src="./script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Завдання 2</h1>
+    <label for="file-input">Введіть імена файлів у форматі JSON:</label>
+    <input type="text" id="file-input" placeholder='["file1.jpg", "file2.gif", "file34.gif"]'>
+    <button onclick="displayImages()">Показати зображення</button>
+  
+    <div id="error-message"></div>
+    <div id="image-container"></div>
+    <img id="full-image" onclick="hideFullImage()" alt="">
+
+
+</body>
+
+</html>
